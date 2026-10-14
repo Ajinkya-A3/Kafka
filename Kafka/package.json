@@ -1,0 +1,20 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "admin.js",
+  "scripts": {
+    "setup": "node admin.js",
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "inquirer": "^8.2.7",
+    "kafkajs": "^2.2.4"
+  }
+}
