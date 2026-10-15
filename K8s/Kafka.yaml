@@ -5,6 +5,8 @@ metadata:
   namespace: kafka
 spec:
   kafka:
+    kafkaMetadataState: KRaft
+    kafkaVersion: 4.3.1
     listeners:
       - name: plain
         port: 9092
